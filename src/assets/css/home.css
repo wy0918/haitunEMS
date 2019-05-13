@@ -1,0 +1,50 @@
+.el-header, .el-footer {
+    text-align: center;
+    line-height: 60px;
+  }
+  
+  .el-aside {
+    text-align: left;
+    line-height: 200px;
+		position: absolute;
+    background-color:#5e87b0;
+    height: 92.3%;
+  }
+  
+  .el-main {
+    left:200px;
+    width: 86.85%;
+    height: 92.3%;
+    background-color: #E9EEF3;
+    color: #333;
+    text-align: center;
+    /* line-height: 160px; */
+		position: absolute;
+  }
+  
+  body > .el-container {
+    margin-bottom: 40px;
+  }
+  
+  .el-container:nth-child(5) .el-aside,
+  .el-container:nth-child(6) .el-aside {
+    line-height: 260px;
+  }
+  
+  .el-container:nth-child(7) .el-aside {
+    line-height: 320px;
+  }
+  	.logo {
+		width: 45px;
+		float: left;
+		margin: 5px 0 5px 20px;
+    }
+.logo-title {
+    float: left;
+    letter-spacing: 5px;
+    margin-left: 5px;
+}
+.logout {
+    float:right;
+    margin-right:30px;
+}
